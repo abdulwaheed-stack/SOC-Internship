@@ -1,0 +1,21 @@
+# Evidence Screenshots
+
+This directory contains visual evidence captured during the Linux SSH authentication log analysis.
+
+## Planned Evidence
+
+| Screenshot | Description |
+|---|---|
+| 01-log-volume.png | Total number of log records analyzed |
+| 02-failed-authentication.png | Failed SSH password authentication count |
+| 03-top-targeted-usernames.png | Most frequently targeted usernames |
+| 04-top-source-ips.png | Source IPs generating failed authentication records |
+| 05-successful-logins.png | Source IPs associated with successful password authentication |
+| 06-ip-correlation.png | IP addresses appearing in both failed and successful authentication records |
+
+## Evidence Collection
+
+Screenshots are captured directly from Windows PowerShell to preserve the original command output.
+
+All evidence is intended to support the findings documented in `Analysis/findings.csv`.
+
