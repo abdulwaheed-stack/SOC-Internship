@@ -1,0 +1,29 @@
+
+
+Finding_ID,Category,Observation,Evidence,Severity,Status
+
+F-001,Authentication Failures,High volume of failed SSH password authentication,197587 matching Failed password records,High,Observed
+
+F-002,Username Targeting,Root account was heavily targeted,176784 matching records for root,High,Observed
+
+F-003,Username Targeting,Admin account was the second most targeted username,8080 matching records for admin,High,Observed
+
+F-004,Source IP Analysis,59.63.188.30 generated the highest number of failed-password records,28766 matching records,High,Observed
+
+F-005,Source IP Analysis,183.63.110.206 generated repeated authentication failures,17340 matching records,High,Observed
+
+F-006,Source IP Analysis,183.238.178.195 generated repeated authentication failures,14519 matching records,High,Observed
+
+F-007,Successful Authentication,Successful SSH password authentication was present,182 matching Accepted password records,Medium,Observed
+
+F-008,Successful Authentication,111.222.107.90 had the highest successful-login record count,25 matching records,Medium,Observed
+
+F-009,Authentication Correlation,218.17.80.182 appeared in both failed and successful authentication records,7 failed and 7 successful records,High,Investigation Required
+
+F-010,Authentication Correlation,123.255.103.142 appeared in both authentication categories,7 failed and 5 successful records,High,Investigation Required
+
+F-011,Authentication Correlation,111.222.107.90 appeared in both authentication categories,6 failed and 25 successful records,High,Investigation Required
+
+F-012,Invalid Usernames,Attempts involving unrecognized usernames were observed,Examples: webmaster; test9; chen,Medium,Observed
+F-013,SSH Security Warning,Reverse DNS lookup warning was recorded,173.234.31.186 - POSSIBLE BREAK-IN ATTEMPT warning,Medium,Observed
+F-014,Root Authentication,Repeated failed root authentication attempts were observed from one source,59.63.188.30 - repeated root failures,High,Observed
