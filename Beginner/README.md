@@ -1,106 +1,56 @@
-# BEGINNER LEVEL — BLUE TEAM CYBERSECURITY
+# BEGINNER LEVEL — BLUE TEAM PORTFOLIO
 
-### Cybersecurity Internship | Security Operations & Defensive Security
+### CyberSNova | Blue Team Cybersecurity Internship
 
-Welcome to the Beginner Level of my Blue Team cybersecurity internship portfolio.
+This directory contains four practical cybersecurity projects focused on developing foundational Blue Team and Security Operations Centre (SOC) skills.
 
-This section documents practical cybersecurity investigations, security monitoring exercises and defensive analysis projects completed as part of my development towards a Security Operations Centre (SOC) role.
+The projects progress from security log analysis to SIEM monitoring, threat detection and investigation.
 
-The focus is on developing foundational skills in log analysis, threat identification, security auditing, incident investigation and endpoint monitoring.
+## PROJECTS
 
----
+| ID | Project | Focus | Status |
+|---|---|---|---|
+| P1 | Linux System Log Analysis | SSH authentication log investigation | Completed |
+| P2 | Windows Security Event Log Analysis | Windows authentication and security event investigation | In Progress |
+| P3 | Wazuh SIEM Threat Detection | Endpoint monitoring, alert analysis and detection | Planned |
+| P4 | Threat Hunting & Incident Investigation | Proactive threat hunting and evidence-based investigation | Planned |
 
-## PROJECT PORTFOLIO
-
-The Beginner Level consists of six practical project tracks. The required completion target is **any four out of six projects**.
-
-| Project | Title | Focus |
-|---|---|---|
-| P1 | Linux System Log Analysis | SSH authentication investigation |
-| P2 | Apache Web Server Log Analysis | Web traffic and suspicious request analysis |
-| P3 | Email Header Analysis & Phishing Triage | Email security and phishing investigation |
-| P4 | Linux Security Auditing & Hardening with Lynis | System auditing and security configuration |
-| P5 | Building a Home SOC | Wazuh / Splunk security monitoring |
-| P6 | Windows Event Log Fundamentals | Windows security event investigation |
-
----
-
-## PROJECT DETAILS
+## PROJECT OVERVIEW
 
 ### P1 — Linux System Log Analysis
-**Status: Completed**
+Analysis of OpenSSH authentication logs using PowerShell to identify failed logins, targeted accounts, suspicious source IPs and authentication patterns.
 
-Investigated Linux OpenSSH authentication logs using Windows PowerShell.
+### P2 — Windows Security Event Log Analysis
+Investigation of Windows Security Event Logs to identify authentication activity, suspicious account behaviour and potentially malicious process execution.
 
-Key activities:
-- Analysed authentication failures and successful logins.
-- Identified frequently targeted usernames.
-- Investigated suspicious source IP addresses.
-- Correlated failed and successful authentication records.
-- Documented findings and defensive recommendations.
+### P3 — Wazuh SIEM Threat Detection
+Practical SIEM monitoring using Wazuh, including endpoint telemetry collection, security alert investigation and detection rule development.
 
-### P2 — Apache Web Server Log Analysis
-**Status: Planned**
+### P4 — Threat Hunting & Incident Investigation
+Hypothesis-driven threat hunting, investigation of suspicious activity, MITRE ATT&CK mapping and professional incident documentation.
 
-Investigate Apache access and error logs to identify suspicious web activity, unusual requests and potential attack indicators.
+## CORE SKILLS
 
-### P3 — Email Header Analysis & Phishing Triage
-**Status: Planned**
-
-Examine email headers, sender information, authentication results and suspicious indicators to assess potential phishing attempts.
-
-### P4 — Linux Security Auditing & Hardening with Lynis
-**Status: Planned**
-
-Assess Linux system security configurations, identify weaknesses and document recommended hardening measures.
-
-### P5 — Building a Home SOC
-**Status: Planned**
-
-Build a practical security monitoring environment using Wazuh or Splunk, collect endpoint telemetry and investigate security alerts.
-
-### P6 — Windows Event Log Fundamentals
-**Status: Planned**
-
-Explore Windows event records, understand important event identifiers and investigate authentication and system activity.
-
----
-
-## SKILLS DEVELOPED
-
-- Security Log Analysis
-- Authentication Monitoring
-- PowerShell Fundamentals
-- Linux Security Fundamentals
-- Threat Identification
+- Linux and Windows Log Analysis
+- PowerShell
+- Security Event Investigation
+- SIEM Monitoring
+- Threat Detection
+- Threat Hunting
+- MITRE ATT&CK
 - Incident Investigation
-- SIEM Fundamentals
-- Security Documentation
-- MITRE ATT&CK Fundamentals
+- Security Reporting
 
-## APPROACH
+## PROJECT APPROACH
 
-Each completed project aims to include:
+Each project focuses on practical implementation and evidence-based investigation.
 
-- A clear investigation objective.
-- Practical analysis and methodology.
-- Supporting evidence and screenshots.
-- Structured findings.
-- A professional investigation report.
-- Relevant security references.
+Deliverables include relevant analysis, supporting screenshots, structured findings, detection logic where applicable and professional technical documentation.
 
-Findings are documented based on available evidence. Suspicious activity is not automatically treated as a confirmed compromise.
+## OBJECTIVE
 
----
+Build practical defensive cybersecurity skills through hands-on projects that demonstrate the ability to analyse security events, identify suspicious behaviour, investigate potential threats and communicate findings.
 
-## PORTFOLIO OBJECTIVE
-
-The objective of this level is to establish practical defensive security fundamentals through hands-on investigation rather than relying solely on theoretical exercises.
-
-Each project contributes to a growing portfolio demonstrating the ability to examine security data, recognise suspicious behaviour, investigate relevant indicators and communicate findings clearly.
-
+**Programme:** CyberSNova Blue Team Internship  
 **Level:** Beginner  
-**Domain:** Blue Team / Cybersecurity  
-**Programme:** CyberSNova Blue Team Internship
-
-*Practical learning. Evidence-based investigation. Defensive security.*
+**Focus:** Blue Team / Security Operations
